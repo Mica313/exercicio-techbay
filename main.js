@@ -5,4 +5,7 @@ $(document).ready(function(){
     $('.lista button').click(function(){
         alert('!! item adicionado ao carrinho !!')
     });
+    $('form input').click(function(){
+        prompt()
+    })
 });

@@ -4,7 +4,9 @@
     padding:0;
     font-family: 'Asap Condensed', sans-serif;
     font-family: 'Play', sans-serif;
-    
+}
+body{
+    background-color:#ccc;
 }
 .container{
     max-width: 1024px;
@@ -106,7 +108,7 @@ section li{
     margin-right:24px;
 }
 aside{
-    padding-left: 40px;
+    
 }
 aside .item{
     padding-bottom:24px;
@@ -143,5 +145,11 @@ aside .item{
     .conteudo{
         display:block;
     }
+    .container-flex{
+        display:block;
+    }
+    form input, form button{
+        font-size:9px;
 
+    }
 }
